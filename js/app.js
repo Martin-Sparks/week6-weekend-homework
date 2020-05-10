@@ -33,7 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const genre = document.createElement('p');
             genre.textContent = form.category.value;
-            albumListItem.appendChild(genre);   
+            albumListItem.appendChild(genre); 
+            
+            const rating = document.createElement('p');
+            rating.textContent = form.rating.value;
+            albumListItem.appendChild(rating);
             
             return albumListItem;
 
@@ -43,4 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const albumList = document.querySelector('#discs');
         albumList.innerHTML = '';
       }
+
+    //   const ratings = ["Well, not my first pick", "It's on the last and we will be listening to it.", "It should be on repeat at all times."]
   
