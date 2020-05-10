@@ -22,13 +22,13 @@
     margin: 30px auto;
     max-width: 70%;
     padding: 20px;
-    background-image: linear-gradient(yellow, aqua);
+    background-image: linear-gradient(#cfeaff, aqua);
 
   }
 
   .form-wrap {
     background: white;
-    background-image: linear-gradient(yellow, aqua);
+    background-image: linear-gradient(#cfeaff, aqua);
     padding: 15px 25px;
     color: #333;
     list-style: none;
@@ -100,6 +100,8 @@
 
   .header {
     text-align: center;
+    color: blueviolet;
+
   } 
 
   li {
@@ -111,7 +113,11 @@
     margin: 1em;
     text-align: center;
     background-image: linear-gradient(yellow, aqua);
+  }
 
+  select #category {
+    
+    background-color: white;
   }
 
   
