@@ -47,6 +47,4 @@ document.addEventListener('DOMContentLoaded', () => {
         const albumList = document.querySelector('#discs');
         albumList.innerHTML = '';
       }
-
-    //   const ratings = ["Well, not my first pick", "It's on the last and we will be listening to it.", "It should be on repeat at all times."]
   
